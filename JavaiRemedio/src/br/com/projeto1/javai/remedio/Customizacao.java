@@ -6,13 +6,13 @@ public class Customizacao implements InterfaceCustomizacao{
 	public void logo() {
 		
 		System.out.println("=======================================================================================");
-        System.out.println("=         ==         ==                                                               =");
-        System.out.println("=         =    ===    =               JAVAIREMEDIO                                    =");
-        System.out.println("=          =         =                                                                =");
-        System.out.println("=           =  |    =                Seu remédio aqui                                 =");
-        System.out.println("=            =  |  =                                                                  =");
-        System.out.println("=               =                                                                     =");
-        System.out.println("=======================================================================================");
+		System.out.println("=         ==         ==                                                               =");
+		System.out.println("=         =    ===    =               JAVAIREMEDIO                                    =");
+		System.out.println("=          =         =                                                                =");
+		System.out.println("=           =  _|_  =                Seu remédio aqui                                 =");
+		System.out.println("=            =  |  =                                                                  =");
+		System.out.println("=               =                                                                     =");
+		System.out.println("=======================================================================================");
 		
 	}
 
