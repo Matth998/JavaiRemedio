@@ -15,7 +15,8 @@ public class Cadastro {
 		logo.logo();
 		
 		validacao.validaPaciente(entradaText, entradaNum, p1); // --> Chamada da função que valida o Paciente.
-
+		PesquisaSatisfacao.pesquisa(entradaNum);
+		
 	}
 	
 }

@@ -1,0 +1,170 @@
+package br.com.projeto1.javai.remedio;
+
+import java.util.ArrayList;
+
+public class ListaRemedio {
+
+	static ArrayList<String> lista = new ArrayList<>();
+	static int available = 0;
+	static Customizacao custom = new Customizacao();
+	
+	public static void listaRemedio() {
+	
+	lista.add("abatacepte");
+	lista.add("acetazolamida");
+	lista.add("ácido nicotínico");
+	lista.add("ácido ursodesoxicólico");
+	lista.add("ácido zoledrônico");
+	lista.add("acitretina");
+	lista.add("adalimumabe");
+	lista.add("alfaglicosidase");
+	lista.add("alfadornase");
+	lista.add("alfaelosulfase");
+	lista.add("alfaepoetina");
+	lista.add("alfainterferona 2b");
+	lista.add("amantadina");
+	lista.add("ambrisentana");
+	lista.add("atorvastatina");
+	lista.add("azatioprina");
+	lista.add("baricitinibe");
+	lista.add("betainterferona");
+	lista.add("bezafibrato");
+	lista.add("biotina");
+	lista.add("brimonidina");
+	lista.add("brinzolamida");
+	lista.add("budesonida");
+	lista.add("cabergolina");
+	lista.add("calcipotriol");
+	lista.add("calcitonina");
+	lista.add("calcitriol");
+	lista.add("certolizumabe pegol");
+	lista.add("ciclofosfamida");
+	lista.add("ciclosporina");
+	lista.add("cinacalcete");
+	lista.add("ciprofibrato");
+	lista.add("ciproterona");
+	lista.add("clobazam");
+	lista.add("clobetasol");
+	lista.add("clopidogrel");
+	lista.add("cloroquina");
+	lista.add("clozapina");
+	lista.add("codeína");
+	lista.add("complemento alimentar para paciente fenilcetonúrico (fórmula de aminoácidos isenta de fenilalanina");
+	lista.add("danazol");
+	lista.add("dapagliflozina");
+	lista.add("deferasirox");
+	lista.add("deferiprona");
+	lista.add("desferroxamina");
+	lista.add("desmopressina");
+	lista.add("dicloridrato de sapropterina");
+	lista.add("donepezila");
+	lista.add("dorzolamida");
+	lista.add("eltrombopague olamina");
+	lista.add("enoxaparina sódica");
+	lista.add("entacapona");
+	lista.add("etanercepte");
+	lista.add("etossuximida");
+	lista.add("everolimo");
+	lista.add("fenofibrato");
+	lista.add("fenoterol");
+	lista.add("filgrastim");
+	lista.add("fingolimode");
+	lista.add("fludrocortisona");
+	lista.add("formoterol");
+	lista.add("formoterol + budesonida");
+	lista.add("fumarato de dimetila");
+	lista.add("gabapentina");
+	lista.add("galantamina");
+	lista.add("galsulfase");
+	lista.add("genfibrozila");
+	lista.add("glatiramer");
+	lista.add("golimumabe");
+	lista.add("gosserrelina"); 
+	lista.add("hidroxicloroquina");
+	lista.add("hidroxiuréia");
+	lista.add("idursulfase alfa");
+	lista.add("iloprosta");
+	lista.add("imiglucerase");
+	lista.add("imunoglobulina humana");
+	lista.add("infliximabe");
+	lista.add("Insulina Asparte");
+	lista.add("insulina glulisina ");
+	lista.add("isotretinoína");
+	lista.add("lamotrigina");
+	lista.add("lanreotida");
+	lista.add("laronidase");
+	lista.add("latanoprosta");
+	lista.add("leflunomida");
+	lista.add("leuprorrelina");
+	lista.add("levetiracetam");
+	lista.add("memantina");
+	lista.add("mesalazina");
+	lista.add("metadona");
+	lista.add("metilprednisolona");
+	lista.add("metotrexato");
+	lista.add("micofenolato de mofetila");
+	lista.add("micofenolato de sódio");
+	lista.add("miglustate");
+	lista.add("morfina");
+	lista.add("naproxeno");
+	lista.add("natalizumabe");
+	lista.add("nusinersena");
+	lista.add("octreotida");
+	lista.add("olanzapina");
+	lista.add("omalizumabe");
+	lista.add("pamidronato");
+	lista.add("pancreatina");
+	lista.add("paricalcitol");
+	lista.add("penicilamina");
+	lista.add("pilocarpina");
+	lista.add("piridostigmina");
+	lista.add("pramipexol");
+	lista.add("pravastatina");
+	lista.add("primidona");
+	lista.add("quetiapina");
+	lista.add("raloxifeno");
+	lista.add("rasagilina");
+	lista.add("riluzol");
+	lista.add("risedronato");
+	lista.add("risperidona");
+	lista.add("rituximabe");
+	lista.add("rivastigmina");
+	lista.add("sacarato de hidróxido férrico");
+	lista.add("sacubitril/valsartana");
+	lista.add("secuquinumabe");
+	lista.add("selegilina" );
+	lista.add("sevelamer");
+	lista.add("sildenafila");
+	lista.add("sirolimo");
+	lista.add( "somatropina");
+	lista.add("sulfassalazina");
+	lista.add("tafamidis");
+	lista.add("tacrolimo");
+	lista.add("taliglucerase alfa");
+	lista.add("teriflunomida");
+	lista.add("timolol");
+	lista.add("tobramicina");
+	lista.add("tocilizumabe");
+	lista.add("tofacitinibe");
+	lista.add( "topiramato");
+	lista.add( "toxina botulínica tipo a");
+	lista.add("travoprosta");
+	lista.add("trientina");
+	lista.add("triexifenidil");
+	lista.add("triptorrelina" );
+	lista.add("vedolizumabe");
+	lista.add("vigabatrina");
+	lista.add("ustequinumabe");
+	lista.add("ziprasidona");
+	
+	System.out.println("Lista de remédios e seus códigos: ");
+	System.out.println();
+	
+	for(int i = 0; i < lista.size(); i++) {
+		
+		System.out.println(lista.get(i));
+		
+	}
+	
+	}
+}

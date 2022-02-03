@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Validacao implements InterfaceValida{
 
 	static int valida = 0; // --> Variavel Global
+	static String valida1;
 	static Integer test = 0;
 	static Customizacao custom = new Customizacao();
 	
@@ -68,20 +69,34 @@ public class Validacao implements InterfaceValida{
 			
 		}
 		
-		public void medicamentoLista(Scanner entradaNum) {
+		public void medicamentoLista(Scanner entradaText) {
 			//Caso não der para importar, colocar um link para o usuario acessar e verificar a lista.
 			System.out.println("Você procura uma medicação de alto custo? [ 1- SIM || 2- NÃO ]");
-			valida = entradaNum.nextInt();
+			valida = entradaText.nextInt();
 			custom.separadorX();
 			
 			if(valida == 1) {
 				
-				Servidor.servidor(test, entradaNum);
+				custom.separadorX();
+				ListaRemedio.listaRemedio();
+				custom.separadorX();
+				System.out.println("O remédio que você procura, está na lista? [ 1- SIM || 2- NÃO ]");
+				valida = entradaText.nextInt();
+				
+				if(valida == 1) {
+					
+					custom.separadorX();
+					BuscaServidor.achouRemedio(entradaText);
+					
+				}else if(valida == 2) {
+					
+					System.out.println("Para mais informações procure a UBS mais próxima.");
+					
+				}
 				
 			}else if (valida == 2){
 				
-				System.out.println("Possivelmente essa não é uma medicação de alto custo. "
-						+ "\nPara mais informações procure a UBS mais próxima.");
+				System.out.println("Para mais informações procure a UBS mais próxima.");
 				
 			}else {
 				
