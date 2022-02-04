@@ -26,6 +26,8 @@ public class BuscaServidor {
 					+ "\nverifique o endereço no seu email."
 					+ "\nNão esqueça seu RG, cartão do SUS e laudo do médico atualizado.");
 		}
+		
+		entrada.close();
 	}
 	
 	
