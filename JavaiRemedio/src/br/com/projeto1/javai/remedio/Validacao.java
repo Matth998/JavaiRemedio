@@ -86,7 +86,7 @@ public class Validacao implements InterfaceValida{
 				if(valida == 1) {
 					
 					custom.separadorX();
-					BuscaServidor.achouRemedio(entradaText);
+					BuscaServidor.achouRemedio();
 					
 				}else if(valida == 2) {
 					

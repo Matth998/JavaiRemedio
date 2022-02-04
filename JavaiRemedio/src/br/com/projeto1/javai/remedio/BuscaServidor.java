@@ -8,12 +8,14 @@ import br.com.projeto1.javai.servidor.Servidor;
 public class BuscaServidor {
 
 	
-	public static void achouRemedio(Scanner entrada) {
+	public static void achouRemedio() {
 	
 		Servidor servidor = new Servidor();
 		
+		Scanner entrada = new Scanner(System.in);
+		
 		System.out.println("Qual o nome do remédio?");
-		BancoDeDados consulta = servidor.remedioNome(entrada.next());
+		BancoDeDados consulta = servidor.remedioNome(entrada.nextLine());
 		Customizacao custom = new Customizacao();
 		
 		if(consulta.getRemedio() != null) {
